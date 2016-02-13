@@ -74,7 +74,7 @@ void loop()
     if (nDevices == 0)
         Serial.println("No I2C devices found\n");
     else
-        Serial.println("done\n");
+        Serial.println(String("done ")+String(millis())+String("\n"));
 
     delay(5000);                     // wait 5 seconds for next scan
 }
