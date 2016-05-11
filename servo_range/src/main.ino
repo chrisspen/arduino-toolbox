@@ -5,6 +5,8 @@
 
 #include <Servo.h>
 
+#define SERVO_PIN 9
+
 Servo myservo;    // create servo object to control a servo
                                 // a maximum of eight servo objects can be created
 
@@ -21,7 +23,7 @@ int speed = 30; // ms between step
 
 void setup()
 {
-    myservo.attach(9);    // attaches the servo on pin 9 to the servo object
+    myservo.attach(SERVO_PIN);    // attaches the servo on pin 9 to the servo object
     
     Serial.begin(57600); // must match ino.ini
 }
