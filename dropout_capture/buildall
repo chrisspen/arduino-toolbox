@@ -3,4 +3,4 @@ set -e
 ano build
 ano upload
 ano serial
-#Press Ctrl+A Ctrl+X to exit.
+# Press Ctrl+A Ctrl+X to exit.

@@ -1,6 +1,0 @@
-#!/bin/bash
-set -e
-ino build
-ino upload
-ino serial
-#Press Ctrl+A Ctrl+X to exit.
